@@ -33,10 +33,10 @@ Partial Class frmName
         'btnBrowse
         '
         Me.btnBrowse.Font = New System.Drawing.Font("Segoe UI Semilight", 10.0!)
-        Me.btnBrowse.Location = New System.Drawing.Point(12, 146)
+        Me.btnBrowse.Location = New System.Drawing.Point(14, 182)
         Me.btnBrowse.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnBrowse.Name = "btnBrowse"
-        Me.btnBrowse.Size = New System.Drawing.Size(128, 30)
+        Me.btnBrowse.Size = New System.Drawing.Size(144, 38)
         Me.btnBrowse.TabIndex = 0
         Me.btnBrowse.Text = "Browse..."
         Me.btnBrowse.UseVisualStyleBackColor = True
@@ -45,29 +45,29 @@ Partial Class frmName
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Segoe UI Semilight", 16.0!)
-        Me.lblName.Location = New System.Drawing.Point(145, 14)
+        Me.lblName.Location = New System.Drawing.Point(163, 18)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(210, 37)
+        Me.lblName.Size = New System.Drawing.Size(248, 45)
         Me.lblName.TabIndex = 2
         Me.lblName.Text = "Enter your name"
         '
         'txtName
         '
         Me.txtName.Font = New System.Drawing.Font("Segoe UI Semilight", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtName.Location = New System.Drawing.Point(145, 63)
+        Me.txtName.Location = New System.Drawing.Point(163, 79)
         Me.txtName.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtName.MaxLength = 16
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(351, 51)
+        Me.txtName.Size = New System.Drawing.Size(394, 60)
         Me.txtName.TabIndex = 3
         '
         'btnContinue
         '
         Me.btnContinue.Font = New System.Drawing.Font("Segoe UI Semilight", 10.0!)
-        Me.btnContinue.Location = New System.Drawing.Point(397, 132)
+        Me.btnContinue.Location = New System.Drawing.Point(447, 165)
         Me.btnContinue.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnContinue.Name = "btnContinue"
-        Me.btnContinue.Size = New System.Drawing.Size(99, 44)
+        Me.btnContinue.Size = New System.Drawing.Size(111, 55)
         Me.btnContinue.TabIndex = 4
         Me.btnContinue.Text = "Continue"
         Me.btnContinue.UseVisualStyleBackColor = True
@@ -76,20 +76,21 @@ Partial Class frmName
         '
         Me.pbxUser.BackColor = System.Drawing.Color.Transparent
         Me.pbxUser.Image = Global.Roulette.My.Resources.Resources.thumb_Picture
-        Me.pbxUser.Location = New System.Drawing.Point(12, 14)
+        Me.pbxUser.Location = New System.Drawing.Point(14, 18)
         Me.pbxUser.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pbxUser.Name = "pbxUser"
-        Me.pbxUser.Size = New System.Drawing.Size(128, 128)
+        Me.pbxUser.Size = New System.Drawing.Size(144, 160)
         Me.pbxUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pbxUser.TabIndex = 1
         Me.pbxUser.TabStop = False
         '
         'frmName
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(506, 185)
+        Me.ClientSize = New System.Drawing.Size(569, 231)
         Me.ControlBox = False
         Me.Controls.Add(Me.btnContinue)
         Me.Controls.Add(Me.txtName)
